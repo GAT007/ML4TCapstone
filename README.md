@@ -8,7 +8,7 @@ The code for this project is available on request to adhere to integrity standar
 
 The core of this project is the development and comparison of two trading approaches for the stock market.
 
-1.  **Manual Strategy**: A rule-based trading strategy defined by the author, which utilizes a combination of three technical indicators: Exponential Moving Average (EMA), Moving Average Convergence and Divergence (MACD), and Relative Strength Index (RSI). Decisions to go long or short are made based on the combined signals from these indicators.
+1.  **Manual Strategy**: A rule-based trading strategy, which utilizes a combination of three technical indicators: Exponential Moving Average (EMA), Moving Average Convergence and Divergence (MACD), and Relative Strength Index (RSI). Decisions to go long or short are made based on the combined signals from these indicators.
 
 2.  **Strategy Learner**: A strategy that employs a Q-Learner, a model-free reinforcement learning algorithm, to learn an optimal trading policy. The state is represented by discretized values of the same technical indicators (EMA, MACD, RSI), and the learner is rewarded based on the change in portfolio value.
 
